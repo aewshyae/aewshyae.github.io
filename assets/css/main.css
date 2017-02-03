@@ -10,9 +10,8 @@ body {
 }
 
 main, footer {
-    font-family: 'Gentium Basic', serif;
+    font-family:  serif;
     color: white;
-    /*background: url(/assets/img/1.jpg);    #066;*/
     opacity: 1;
     text-align: center;
 }
@@ -24,8 +23,12 @@ main {
 
 .title {
     display: inline-block;
-    font-size: 9vh;
+    font-size: 5vh;
     margin-top: 37vh;
+}
+.description {
+  font-size: 2vh;
+  margin-top: 1vh;
 }
 
 .none-decoration {
@@ -38,7 +41,7 @@ main {
     display: block;
     position: relative;
     overflow: hidden;
-    font-size: 4vh;
+    font-size: 2.5vh;
     margin: 3vh 0;
 }
 
@@ -77,5 +80,5 @@ main {
     clear: both;
     display: inline-block;
     height: 10vh;
-    font-size: 3vh;
+    font-size:  2vh;
 }
